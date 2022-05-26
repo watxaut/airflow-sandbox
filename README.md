@@ -6,7 +6,7 @@ by Airflow
 1. Clone the repository locally
 2. cd into the root folder of the repository
 3. Start Airflow with `docker-compose up`
-4. Airflow webserver will be up and running in http://localhost:8080
+4. Airflow webserver will be up and running in http://localhost:8080 (usr is `airflow` and pwd is `airflow`)
 5. To bring Airflow down `control+c` in the terminal and `docker-compose down --remove-orphans` just in case
 
 ## Create a DAG
